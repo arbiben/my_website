@@ -26,11 +26,16 @@ h1{
 
 h2.link {
   font-size: 1em;
-  color:red;
-  font-weight: normal
+  color: white;
+  font-weight: normal;
+  background: #4B3535;
 }
 
 footer{
   text-align: center;
   font-size: 0.85em;
+}
+
+nav{
+  background: #657E6C;
 }
