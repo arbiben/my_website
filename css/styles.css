@@ -1,10 +1,5 @@
 /* this is a comment */
 
-@font-face{
-  font-family: 'Archivo-Narrow';
-  src: url(../fonts/Archivo-Narrow/ArchivoNarrow-Regular.ttf);
-}
-
 html{
   margin: 0;
   padding: 0;
@@ -12,7 +7,10 @@ html{
 }
 
 body{
-  font-family: "Times New Roman";
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 150%;
   width: 70%;
   margin: 0 auto;
 }
@@ -21,39 +19,60 @@ main{
   text-align: center;
 }
 
+/* back prev 2B2D42 */
 header, footer{
-  background: #2B2D42;  
-  color: #8D99AE;
-}
-
-a{
-  color: white;
-}
-
-a:hover{
-  text-decoration: none;
+  background: #55557F;  
+  color: #C6C6CC;
 }
 
 h1{
-  font-size: 2em;
-  font-weight: normal;
-  font-style: normal;
-  text-align: left;
-}
+  font-size: 60px;
+  line-height: 110%;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 
-
-h2.link {
-  font-size: 1em;
-  color: white;
-  font-weight: normal;
 }
 
 footer{
   text-align: center;
-  font-size: 0.85em;
+  font-size: 15px;
 }
 
-.greeting{
-  background: #2B4162 ;
-  color: white;
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+#tabs a{
+  background: #55557F;
+  color: black;
+  display: inline-block;
+  padding: 10px 30px; 
+  /*margin: 5px;*/
+}
+
+#tabs{
+  margin: 0 auto;
+  text-align: center;
+  background: #55557F;
+}
+#profile-pic{
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+
+.sec{
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#intro_ben{
+  padding-bottom: 40px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
 }

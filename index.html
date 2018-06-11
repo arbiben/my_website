@@ -5,61 +5,75 @@
     <meta charset="utf-8">
     <meta name="intro" content="a page that shows how awesome Ben is">
     <title>Ben Arbiv</title>
-    <link rel="shortcut icon" type="image/png" href="b.png">
-    
-    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/b.png">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <script src="_scripts/tabs.js"></script>
 
   </head>
 
   <body>
     <main role="main">
-      <header><h1>Ben Arbiv</h1></header>
-      <section class="greeting">Hi all, I'm Ben! <br>
-         Overall a nice guy who cannot stand still for more than a minute   
-        </section>
+      <header class="sec"><h1>Ben Arbiv</h1></header>
 
-        <div><p>  <img src = "profile.gif" 
+        <div id="profile-pic" class="sec">  
+                <img src = "images/profile.gif" 
                 alt = "Ben's profile picture" 
                 width = "100" 
-                height = "100">  </p>
+                height = "100">  
         </div>
-      <article role="banner"> 
+      
+        <div id="caption" class="sec">
+         Software Developer, Dog Trainer, Student and overall a good person :)
+        </div>
+        <hr/> 
+        <article id="intro_ben" class="sec"> 
         I am a student at Columbia University in New York City studying Computer Science.
-        I have a great passion for new technologies, traveling, and photography
+        I have a great passion for new technologies, traveling, and photography.
         While persuing my degree, I am running my own dog training and walking business
       </article>
     </main>
     
-    <nav role="navigation" id="tabs">
+  <footer class="sec">
+    <nav id="tabs">
       
-        <div><h2 class="link"><a 
-                  href="https://www.github.com/arbiben" 
-                  title="link to Ben's github account">
-                  Software Engineer
-            </a> 
-        </h2></div>
+        <a href="https://www.github.com/arbiben" 
+           title="link to Ben's github account">
+          <img src="images/github-icon.png"
+               title="github-icon"
+               class="icon">
+        </a> 
 
-        <div><h2 class="link"> <a
-                  href="https://www.instagram.com/ilanalotan/"
-                  title="link to Ilana's instegram">
-                  Photographer
-                </a>
-        </h2></div>
+        <a href="https://www.instagram.com/ilanalotan/"
+           title="link to Ilana's instegram">
+          <img src="images/instegram-icon.png"
+               title="instegram-icon"
+               class="icon">
+        </a>
 
-        <div><h2 class="link"> <a 
-                  href="http://www.benwalkntrain.com" 
-                  title="link to Ben's business webpage">
-                  Dog Trainer
-                </a>
-        </h2></div>
-    
+        <a href="http://www.benwalkntrain.com" 
+           title="link to Ben's business webpage">
+          <img src="images/walkntrain-icon.png"
+               title="walkntrain-icon"
+               class="icon">
+        </a>
+
+        <a href="https://www.linkedin.com/in/ben-arbiv-a05683108" 
+               title="link to Ben's linkedin page">
+          <img src="images/linkedin-icon.png"
+               title="linkedin-icon"
+               class="icon">
+          </a>
+
+        <a href="mailto:ben.a@columbia.edu" 
+               title="mailto Ben's email">
+          <img src="images/email-icon.png"
+               title="email-icon"
+               class="icon">
+          </a>
     </nav>
-
-    <footer role="contentinfo">
-      <div> <a href="https://www.linkedin.com/in/ben-arbiv-a05683108" title="link to Ben's linkedin page"> Linkedin </a> </div>
-      <div> <a href="mailto:ben.a@columbia.edu" title="mailto Ben's email">ben.a@columbia.edu</a></div>
-      <div> Copyright &copy; Ben Arbiv 2019 </div>
+    
+      <div>  &copy; Ben Arbiv 2019 </div>
     </footer>
   </body>
 </html>
