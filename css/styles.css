@@ -49,8 +49,14 @@ hr {
   background: #55557F;
   color: black;
   display: inline-block;
-  padding: 10px 30px; 
+  padding: 10px 30px 10px 30px; 
   /*margin: 5px;*/
+}
+
+a:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
 }
 
 #tabs{
