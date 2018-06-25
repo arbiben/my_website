@@ -11,31 +11,61 @@ body{
   font-size: 30px;
   font-weight: bold;
   line-height: 150%;
-  width: 70%;
-  margin: 0 auto;
+}
+
+header{
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
 }
 
 main{
+  width: 60%;
+  margin: 0 auto;
   text-align: center;
 }
 
-/* back prev 2B2D42 */
-header, footer{
-  background: #55557F;  
-  color: #C6C6CC;
+#profile-pic{
+  margin-top: 20px;
+  margin-bottom: -20px;
 }
 
-h1{
-  font-size: 60px;
-  line-height: 110%;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
+#caption{
+  padding-bottom: 40px;
+}
+
+#essay{
 
 }
 
 footer{
+  background: #55557F;  
   text-align: center;
   font-size: 15px;
+}
+
+nav{
+  border: 5px;
+}
+
+#tabs a{
+  background: #55557F;
+  display: inline-block;
+  /*padding: 10px 15px 0px 15px;*/ 
+  /*margin: 5px;*/
+}
+
+a:hover{
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  padding-color: white;
+}
+
+.icon {
+  padding: 10px 15px 0px 15px;
+  width: 40px;
+  height: 40px;
 }
 
 hr {
@@ -45,40 +75,7 @@ hr {
   border-top: 1px solid #ccc;
 }
 
-#tabs a{
-  background: #55557F;
-  color: black;
-  display: inline-block;
-  padding: 10px 30px 10px 30px; 
-  /*margin: 5px;*/
-}
+/* . means class - can apply to many divs
+ * # means id - can apply to one div
+ */
 
-a:hover{
-  border-style: solid;
-  border-width: 1px;
-  border-color: black;
-}
-
-#tabs{
-  margin: 0 auto;
-  text-align: center;
-  background: #55557F;
-}
-#profile-pic{
-  margin-top: 20px;
-  margin-bottom: -20px;
-}
-
-.sec{
-  margin: 0 auto;
-  padding: 20px;
-}
-
-#intro_ben{
-  padding-bottom: 40px;
-}
-
-.icon {
-  width: 40px;
-  height: 40px;
-}
